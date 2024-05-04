@@ -1,0 +1,171 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-image: linear-gradient(to right, blue, red);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; 
+    
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Contenido principal */
+section {
+    text-align: left;
+    padding: 40px;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.text-content {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.text-content h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.bigger {
+    font-size: 4rem;
+}
+
+.text-content p {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+
+.image-content img {
+    max-width: 507px;
+    height: auto;
+}
+
+.image-compra img {
+    max-width: 1000px;
+    height: auto;
+}
+
+.image-nosotros img {
+    max-width: 480px;
+    height: auto;
+}
+
+/*------------PAGINA EVENTOS-----------*/
+
+/* Estilos para la página de eventos */
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px; 
+}
+
+.event {
+    width: 48%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.event img {
+    max-width: 250px;
+    margin-right: 20px;
+}
+
+.sub-heading {
+    background-color: rgb(21, 21, 98);
+    color: white;
+    padding: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    width: 100%;
+    position: absolute; 
+    top: 45px; /* Ajustado a la altura del encabezado */
+    left: 0; 
+    right: 0; 
+    font-size: 30px;
+}
+
+.event h3 {
+    font-size: 2.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.event p {
+    font-size: 1rem;
+    margin: 0.2rem 0;
+}
+
+/* Página nosotros */
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.redes-sociales a {
+    color: #333;
+    font-size: 4rem;
+    margin: 0 10px;
+}
+
+.redes-sociales a:hover {
+    color: #000;
+}
+
+.redes-sociales .fa-instagram {
+    color: #e1306c;
+}
+
+.redes-sociales .fa-facebook {
+    color: #3b5998;
+}
+
+.redes-sociales .fa-whatsapp {
+    color: #25d366;
+}
+
+
+/* Pie de página */
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}

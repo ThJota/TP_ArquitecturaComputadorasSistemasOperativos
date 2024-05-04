@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TELETICKET2 - Comprar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">TELETICKET 2</div>
+        <nav>
+            <ul>
+                <li><a href="TP.html">Inicio</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="comprar.html">Comprar</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+        <h1 class="sub-heading">ENTRADAS</h1>
+    </header>
+
+    <main>
+        <section>
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <div class="event-list">
+                        <form>
+                            <label for="event">Selecciona un evento:</label>
+                            <select id="event" name="event">
+                                <option value="evento1">Concierto de Rock</option>
+                                <option value="evento2">Partido de Fútbol</option>
+                                <option value="evento3">Obra de Teatro</option>
+                                <option value="evento4">Exposición de Arte</option>
+                            </select>
+                            <label for="quantity">Cantidad:</label>
+                            <input type="number" id="quantity" name="quantity" min="1" required>
+                            <button type="button" onclick="comprarEntradas()">Comprar</button>
+                        </form>
+                    </div>
+                    <div class="event-list">
+                        <div class="image-compra">
+                            <img src="img/Tickett.jpg" alt="Comprar Entradas">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 TELETICKET 2. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
